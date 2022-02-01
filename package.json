@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "setup": "npm install",
+    "preview": "npx zenn preview",
+    "new": "npx zenn new:article --slug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
